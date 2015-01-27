@@ -1,0 +1,22 @@
+{
+  "name": "color_wheel_p5",
+  "title": "my cool p5js sketch",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Fabian Morón Zirfas/color_wheel_p5.git"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "load-grunt-tasks": "~0.4.0",
+    "grunt-markdown": "^0.6.1",
+    "grunt-wiredep": "2.0.0"
+  },
+  "keywords": [
+    "p5js",
+    "Processing.org"
+  ]
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>playing with p5.js</title>
+    <meta name="description" content="something">
+    <meta name="author" content="me">
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <link rel="stylesheet" type="text/css" href="bower_components/jqueryui/themes/smoothness/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/jqueryui/themes/smoothness/theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="row" id="hello">
+        <div class="col c12">
+          <h1 id="headline">Hello p5.js</h1>
+        </div>
+      </div>
+      <div class="row" id="sketch-target">
+        <div class="col c12">
+        <span>HUE </span>(<span id="hue-val"></span>)
+        <div class="color-slider" id="hue"></div>
+        <span>SATURATION </span>(<span id="sat-val"></span>)
+        <div class="color-slider" id="sat"></div>
+        <span>BRIGHTNESS </span>(<span id="brght-val"></span>)
+        <div class="color-slider" id="brght"></div>
+          <div id="thesketch"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col c12">
+          <div id="info"></div>
+        </div>
+      </div>
+    </div>
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/p5js/lib/p5.min.js"></script>
+    <script src="bower_components/jqueryui/jquery-ui.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- endbower -->
+    <script type="text/javascript" src="assets/js/sketch.js"></script>
+  </body>
+</html>

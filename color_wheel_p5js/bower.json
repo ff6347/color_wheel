@@ -1,0 +1,24 @@
+{
+  "name": "p5js",
+  "version": "0.1.0",
+  "authors": [
+    "Fabian Moron Zirfas"
+  ],
+  "description": "a starter pack for p5js",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "p5js": "~0.3.7",
+    "jquery": "~2.1.3",
+    "jqueryui": "~1.11.2",
+    "bootstrap": "~3.3.2"
+  }
+}
